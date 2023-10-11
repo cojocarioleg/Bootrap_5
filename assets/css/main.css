@@ -524,6 +524,45 @@ footer a:hover {
 /* ============================= Category Page ============================ */
 
 
+/* ============================= Product Page ============================ */
+
+.product-content .product-price {
+  font-size: 25px;
+}
+
+.product-content .input-group {
+  width: 250px;
+}
+
+.product-content .card i {
+  color: var(--accent-color);
+}
+
+.product-content .card {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.product-content .card ul li::before {
+  content: "\f105";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.nav-tabs .nav-link {
+  border-radius: 0;
+  color: var(--contrast-color);
+}
+
+.tab-content {
+  padding-top: 20px;
+}
+
+/* ============================= Product Page ============================ */
+
+
+
 @media only screen and (min-width : 992px) {
   .header-bottom .navbar .dropdown-menu-end {
     margin-left: 0;
