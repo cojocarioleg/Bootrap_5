@@ -25,6 +25,10 @@ a {
   text-decoration: underline;
 }
 
+textarea {
+  resize: none;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -36,11 +40,13 @@ img {
 
 .btn,
 .dropdown-menu,
-.form-control {
+.form-control,
+.form-select {
   border-radius: 0;
 }
 
-.form-control:focus {
+.form-control:focus,
+.form-select:focus {
   color: var(--text-color);
   border-color: var(--accent-color);
   box-shadow: none;
@@ -566,8 +572,6 @@ footer a:hover {
   padding-top: 20px;
 }
 
-
-
 /* ============================= Product Page ============================ */
 
 
@@ -614,34 +618,34 @@ footer a:hover {
 
 @media only screen and (min-width : 992px) {
   .header-bottom .navbar .dropdown-menu-end {
-    margin-left: 0;
-    border: 0;
+      margin-left: 0;
+      border: 0;
   }
 
   .header-bottom .navbar .nav-link {
-    padding: 1rem;
+      padding: 1rem;
   }
 }
 
 @media only screen and (max-width : 991.98px) {
   .header-bottom .navbar .dropdown-menu {
-    padding-left: 1rem;
+      padding-left: 1rem;
   }
 }
 
 @media only screen and (min-width : 768px) {
   .sidebar .collapse-filters {
-    display: block;
+      display: block;
   }
 
   .sidebar .collapse-filters-btn {
-    display: none;
+      display: none;
   }
 }
 
 @media only screen and (max-width : 500px) {
   .product-content-details .nav-tabs .nav-link {
-    padding-left: 8px;
-    padding-right: 8px;
+      padding-left: 8px;
+      padding-right: 8px;
   }
 }
